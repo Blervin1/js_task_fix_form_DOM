@@ -1,0 +1,2 @@
+var e=document.querySelectorAll("input"),r=!0,l=!1,a=void 0;try{for(var t,n=e[Symbol.iterator]();!(r=(t=n.next()).done);r=!0){var c=t.value,o=c.name.replace(/([A-Z])/g," $1").replace(/^./,function(e){return e.toUpperCase()});c.insertAdjacentHTML("afterend",'<label class="field-label" for="'.concat(c.id,'">').concat(o,"</label>")),c.placeholder=o}}catch(e){l=!0,a=e}finally{try{r||null==n.return||n.return()}finally{if(l)throw a}}
+//# sourceMappingURL=index.139a1e61.js.map
